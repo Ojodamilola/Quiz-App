@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all .2s ease-in-out;
+  text-align: center; 
+}
+.header{
+  background-color: hsl(180, 100%, 35%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0.5rem 3.5rem;
+  color: hsl(0, 0%, 100%);
+  
+}
+.text{
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.card{
+  margin: 4em auto;
+  background: transparent;
+  height: auto;
+  width: 60%;
+  padding: 16px;
+  box-shadow: 2px 2px 15px hsl(0, 0%, 70%);
+  border-radius: 10px;
+}
+.card h2{
+  font-size: 1.6em;
+  font-weight: 500;
+  padding: 1em;
+  height: 4em;
+  width: 100%;
+}
+.card p{
+  font-size: 1.1em;
+  padding-top: 10px;
+  line-height: 1.5;
+}
+.card .optionList{
+  background-color: hsl(180, 100%, 35%);
+  color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  font-size: 1.5em;
+  font-weight: 500;
+  border-radius: 0.5em;
+  margin: 0.5em 1.5em;
+}
+.finalResult{
+  margin: 10em auto;
+  background: transparent;
+  height: auto;
+  width: 40%;
+  padding: 16px;
+  box-shadow: 2px 2px 15px hsl(0, 0%, 70%);
+  border-radius: 10px; 
+}
+.finalResult p{
+  font-size: 1.5em;
+  font-weight: 500;
+  color: hsl(0, 0%, 0%);
+  line-height: 2;
+}
+.finalResult h3{
+  font-size: 1.8em;
+  font-weight: 500;
+  padding: 0.5em;
+  color: hsl(0, 0%, 0%);
+}
+.btn {
+  padding: 0.5em 1em;
+  margin-top: 0.5em;
+  font-size: 1.5em;
+  border: none;
+  background-color: hsl(180, 100%, 35%);
+  border-radius: 10px;
+  color: hsl(0, 0%, 100%);
+}
+.btn:hover{
+  background-color: hsl(180, 100%, 25%);
+}
+footer{
+  background-color: hsl(180, 100%, 35%);
+  height: auto;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  padding: 1.2em;
+}
+footer p{
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+}
+footer span{
+  font-size: 12px;
+}
+@media (max-width:630px){
+  .finalResult{
+    background: transparent;
+    width: 80%;
+    padding: 16px;
+    box-shadow: 2px 2px 15px hsl(0, 0%, 70%);
+  }
+  .card{
+    margin: 3em auto;
+    width: 85%;
+    padding: 16px;
+  }
+  .card h2{
+    font-size: 1.5em;
+  }
+}
