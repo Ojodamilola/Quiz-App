@@ -102,16 +102,7 @@ export const data = [
        {id:3, text: 'All of the above', isCorrect: true},
       ],
    },
-   {
-      id: 11,
-      question: 'What is the highest mountain in the world?',
-      options: [
-       {id:0, text: 'Mount Everest', isCorrect: true},
-       {id:1, text: 'Mount Kilimanjaro', isCorrect: false},
-       {id:2, text: 'Mount Most High', isCorrect: false},
-       {id:3, text: 'Idanre Hill', isCorrect: false},
-      ],
-   },
+   
    
    
  ];

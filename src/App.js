@@ -87,7 +87,7 @@ function App() {
     <div className='finalResult'>
       <h3>Final Results</h3>
       <p>You score {score} out of {data.length} questions <br/> Grade - {(score/data.length) * 100}%</p>
-      <button className='btn' onClick={restartBtn}>Restart</button>  
+      <button className='btn' onClick={restartBtn}>Restart</button>
     </div>
       : <div className='card'> 
       <p>Question {currentQuestion +1} out of {data.length}</p> 
